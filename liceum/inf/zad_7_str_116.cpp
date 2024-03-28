@@ -55,6 +55,7 @@ int main()
         int liczba_kwadratow = a / b;
         cout << "Wstawiamy " << liczba_kwadratow << " kw. o wymiarach " << b << "x" << b  << endl;
         // Zwiększamy licznik wszystkich wkadratów wstawionych do prostokąta AxB.
+        // W C++ a = a + b; można zapisać w postaci a += b; obie operacje robią to samo.
         liczba_wszystkich_kwadratow += liczba_kwadratow;
         // Prostokąt AxB został zapełniony kwadratami BxB, więc pora policzyć,
         // ile jeszcze zostało do wypełnienia. Nową wartość a uzyskujemy przez
